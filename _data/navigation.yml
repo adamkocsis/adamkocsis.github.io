@@ -1,0 +1,34 @@
+- name: About
+  link: /about/
+#  dropdown:
+#    - name: Us
+#    - name: Related projects
+#      link: /about/related/
+# - name: Team
+#   dropdown:
+#     - name: People
+#       link: /team/people/
+#     - name: Workshops
+#       link: /team/workshops/
+#     - name: Funding
+#       link: /team/funding/
+# - name: Database
+#   dropdown:
+#     - name: Structure
+#       link: /database/structure/
+#     - name: Contributors 
+#       link: /database/contributing/
+#     - name: Milestones
+#       link: /database/milestones/
+#     - name: Access
+#       link: /database/access/
+#     - name: Attribution
+#       link: /database/attribution/
+# - name: Tutorials
+#   link: /tutorials/
+# - name: Publications
+#   link: /publications/
+# - name: Contribute!
+#   link: /contribute/
+# - name: Contact
+#   link: /contact/
