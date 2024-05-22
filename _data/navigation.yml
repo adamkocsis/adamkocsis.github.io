@@ -1,34 +1,32 @@
 - name: About
-  link: /about/
-#  dropdown:
-#    - name: Us
-#    - name: Related projects
-#      link: /about/related/
-# - name: Team
-#   dropdown:
-#     - name: People
-#       link: /team/people/
-#     - name: Workshops
-#       link: /team/workshops/
-#     - name: Funding
-#       link: /team/funding/
-# - name: Database
-#   dropdown:
-#     - name: Structure
-#       link: /database/structure/
-#     - name: Contributors 
-#       link: /database/contributing/
-#     - name: Milestones
-#       link: /database/milestones/
-#     - name: Access
-#       link: /database/access/
-#     - name: Attribution
-#       link: /database/attribution/
-# - name: Tutorials
-#   link: /tutorials/
-# - name: Publications
-#   link: /publications/
-# - name: Contribute!
-#   link: /contribute/
-# - name: Contact
-#   link: /contact/
+  dropdown:
+    - name: Overview 
+      link: /about/overview/
+    - name: Material 
+      link: /about/material/
+    - name: Editorial 
+      link: /about/editorial/
+    - name: Support 
+      link: /about/support/
+    - name: Related Projects
+      link: /about/related/
+- name: Data
+  link: /data/
+- name: Software
+  dropdown:
+    - name: Basics 
+      link: /software/basics/
+    - name: Programming 
+      link: /software/programming/
+    - name: Science Communication 
+      link: /software/scicomm/
+    - name: Domain-specific Apps 
+      link: /software/domainapps/
+- name: Tutorials
+  link: /tutorials/
+- name: Contribute!
+  dropdown:
+    - name: Data and software pages 
+      link: /contribute/resource/
+    - name: Authoring tutorials
+      link: /contribute/writetutorials/

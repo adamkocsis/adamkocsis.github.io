@@ -18,19 +18,18 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Adam T. Kocsis
+title: Evolv-ED 
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
-  This will be the personal website of Ádám Kocsis.
+  .
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://adamtkocsis.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://evolv-ed.net/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-datapage-generator
 
 footer_menu: footer
 # Exclude from processing.
@@ -41,7 +40,8 @@ footer_menu: footer
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+
+exclude: ['_material/']
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
@@ -54,3 +54,56 @@ footer_menu: footer
 #   - vendor/ruby/
 
 include: ['CNAME']
+
+# the automatic page generator
+page_gen-dirs: true
+page_gen:
+- data: 'tutorialversions'
+  template: 'tutorials'
+  dir: 'tutorials'
+  index_files: false
+  version: 'version'
+  datum: 'datum'
+  tutorial: 'tutorial'
+  name_expr: record['tutorial'] + '-' + record['version']
+  title: 'title'
+  extension: 'html'
+  dependencies: 'dependencies'
+  topic: 'topic'
+  tags: 'tags'
+  files: 'files'
+- data: 'software'
+  template: 'software'
+  dir: 'software'
+  index_files: false
+  name: 'id'
+  id: 'id'
+  longName: 'longName'
+  display: 'display'
+  extension: 'html'
+  extends: 'extends'
+- data: 'data'
+  template: 'data'
+  dir: 'data'
+  index_files: false
+  name: 'id'
+  id: 'id'
+  long: 'long'
+  extension: 'html'
+  logo: 'logo'
+  website: 'website'
+  taxonomic_scope: 'taxonomic_scope'
+  temporal_scope: 'temporal_scope'
+  spatial_scope: 'spatial_scope'
+  since: 'since'
+  license: 'license'
+  abbreviation: 'abbreviation'
+- data: 'data_categ'
+  template: 'data_categ'
+  dir: 'data'
+  index_files: false
+  name: 'id'
+  long: 'long'
+  image: 'image'
+  description: 'description'
+  subcategories: 'subcategories'
