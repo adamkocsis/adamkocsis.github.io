@@ -1,0 +1,22 @@
+- name: Bio 
+  link: /bio/
+- name: Research 
+  dropdown:
+    - name: Interests 
+      link: /interests/
+    - name: Publications 
+      link: /publications/
+- name: Computing 
+  dropdown:
+    - name: Software 
+      link: /software/
+    - name: Dataservice 
+      link: /databases/
+    - name: Web 
+      link: /web/
+- name: Teaching 
+  dropdown:
+    - name: University 
+      link: /university/
+    - name: ECR Training 
+      link: /ecr_training/

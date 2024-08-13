@@ -1,0 +1,57 @@
+- name: divDyn
+  long: Diversity Dynamics using Fossil Sampling Data
+  description: "Functions to describe sampling and diversity dynamics of fossil occurrence datasets (e.g. from the Paleobiology Database). The package includes methods to calculate range- and occurrence-based metrics of taxonomic richness, extinction and origination rates, along with traditional sampling measures. A powerful subsampling tool is also included that implements frequently used sampling standardization methods in a multiple bin-framework. The plotting of time series and the occurrence data can be simplified by the functions incorporated in the package, as well as other calculations, such as environmental affinities and extinction selectivity testing. Details can be found in: Kocsis, A.T.; Reddin, C.J.; Alroy, J. and Kiessling, W. (2019) <doi:10.1101/423780>."
+  type: R package
+  version: 0.8.1
+  reference:
+  GitHub: divDyn/r_package
+  CRAN: yes
+  logo: divDyn.png
+  link: https://divdyn.github.io/r-package/
+
+- name: icosa
+  long: Global Triangular and Penta-Hexagonal Grids Based on Tessellated Icosahedra
+  description: "Implementation of icosahedral grids in three dimensions. The spherical-triangular tessellation can be set to create grids with custom resolutions. Both the primary triangular and their inverted penta-hexagonal grids can be calculated. Additional functions are provided that allow plotting of the grids and associated data, the interaction of the grids with other raster and vector objects, and treating the grids as a graphs."
+  description_formal: 
+  type: R package
+  version: 0.11.0
+  reference:
+  GitHub: adamkocsis/icosa 
+  CRAN: yes
+  logo: icosa.png
+  link: https://adamtkocsis.com/icosa/
+  
+- name: rgplates
+  long: R Interface for the GPlates Web Service and Desktop Application
+  description: "Query functions to the GPlates <https://www.gplates.org/> Desktop Application and the GPlates Web Service <https://gws.gplates.org/> allow users to reconstruct past positions of geographic entities based on user-selected rotation models without leaving the R running environment. The online method (GPlates Web Service) makes the rotation of static plates, coastlines, and a low number of geographic coordinates available using nothing but an internet connection. The offline method requires an external installation of the GPlates Desktop Application, but allows the efficient batch rotation of thousands of coordinates, Simple Features (sf) and Spatial (sp) objects with custom reconstruction trees and partitioning polygons. Examples of such plate tectonic models are accessible via the chronosphere <https://cran.r-project.org/package=chronosphere>."
+  description_formal: 
+  type: R package
+  version: 0.4.0
+  reference:
+  GitHub: adamkocsis/icosa 
+  CRAN: yes
+  logo: rgplates.png
+  link: https://adamtkocsis.com/rgplates/
+
+- name: chronosphere
+  long: Evolving Earth System Variables
+  description: "The implemented functions allow the query, download, and import of remotely-stored and version-controlled data items. The inherent meta-database maps data files and import code to programming classes and allows access to these items via files deposited in public repositories. The purpose of the project is to increase reproducibility and establish version tracking of results from (paleo)environmental/ecological research."
+  description_formal: 
+  type: R package
+  version: 0.6.1
+  reference:
+  GitHub: chronosphere-info/r_client
+  CRAN: yes
+  logo: chronosphere.png
+  link: https://chronosphere.info/r_client/
+
+- name: via
+  long: Virtual Arrays
+  description: "The base class 'VirtualArray' is defined, which acts as a wrapper around lists allowing users to fold arbitrary sequential data into n-dimensional, R-style virtual arrays. The derived 'XArray' class is defined to be used for homogeneous lists that contain a single class of objects. The 'RasterArray' and 'SfArray' classes enable the use of stacked spatial data instead of lists."
+  type: R package
+  version: 0.11.0
+  reference:
+  GitHub: adamkocsis/icosa 
+  CRAN: yes
+  logo: via.png
+  link: https://adamtkocsis.com/via/
