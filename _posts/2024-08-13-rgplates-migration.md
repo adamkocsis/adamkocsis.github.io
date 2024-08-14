@@ -7,7 +7,8 @@ permalink: /rgplates/
 ---
 
 
-<img src="/images/posts/rgplates-migrated.png" alt="rgplates moving" width="500">
 
 The `rgplates` package is now officially part of the [GPlates suite](https://www.gplates.org). Its website was migrated to <https://gplates.github.io/rgplates/>. 
 
+
+<img src="/images/posts/rgplates-migrated.png" alt="rgplates moving" width="500">
