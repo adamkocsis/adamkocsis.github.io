@@ -2,11 +2,14 @@
 layout: page
 title: Software 
 permalink: software/
+hero_image: "/images/IMG_20200611_160327.jpg"
 ---
 
-# R extensions packages
+# R extension packages
 
-### Packages on the Comprehensive R Archive Network (CRAN)
+* * *
+
+### Creator and maintainer 
 
 {% assign rpackages = site.data.software | where: "type", 'R package' %}
 
@@ -34,3 +37,5 @@ permalink: software/
 
 {% endfor %}
 
+
+### Contributor 

@@ -1,6 +1,6 @@
 - name: divDyn
   long: Diversity Dynamics using Fossil Sampling Data
-  description: "Functions to describe sampling and diversity dynamics of fossil occurrence datasets (e.g. from the Paleobiology Database). The package includes methods to calculate range- and occurrence-based metrics of taxonomic richness, extinction and origination rates, along with traditional sampling measures. A powerful subsampling tool is also included that implements frequently used sampling standardization methods in a multiple bin-framework. The plotting of time series and the occurrence data can be simplified by the functions incorporated in the package, as well as other calculations, such as environmental affinities and extinction selectivity testing. Details can be found in: Kocsis, A.T.; Reddin, C.J.; Alroy, J. and Kiessling, W. (2019) <doi:10.1101/423780>."
+  description: 'Functions to describe sampling and diversity dynamics of fossil occurrence datasets (e.g. from the Paleobiology Database). The package includes methods to calculate range- and occurrence-based metrics of taxonomic richness, extinction and origination rates, along with traditional sampling measures. A powerful subsampling tool is also included that implements frequently used sampling standardization methods in a multiple bin-framework. The plotting of time series and the occurrence data can be simplified by the functions incorporated in the package, as well as other calculations, such as environmental affinities and extinction selectivity testing. Details can be found in: Kocsis, A.T.; Reddin, C.J.; Alroy, J. and Kiessling, W. (2019) <a href="https://doi.org/10.1101/423780">doi:10.1101/423780</a>.'
   type: R package
   version: 0.8.1
   reference:
@@ -14,12 +14,12 @@
   description: "Implementation of icosahedral grids in three dimensions. The spherical-triangular tessellation can be set to create grids with custom resolutions. Both the primary triangular and their inverted penta-hexagonal grids can be calculated. Additional functions are provided that allow plotting of the grids and associated data, the interaction of the grids with other raster and vector objects, and treating the grids as a graphs."
   description_formal: 
   type: R package
-  version: 0.11.0
+  version: 0.12.0
   reference:
   GitHub: adamkocsis/icosa 
   CRAN: yes
   logo: icosa.png
-  link: https://adamtkocsis.com/icosa/
+  link: https://icosa-grid.github.io/R-icosa/
   
 - name: rgplates
   long: R Interface for the GPlates Web Service and Desktop Application
@@ -31,7 +31,7 @@
   GitHub: adamkocsis/icosa 
   CRAN: yes
   logo: rgplates.png
-  link: https://adamtkocsis.com/rgplates/
+  link: https://gplates.github.io/rgplates/
 
 - name: chronosphere
   long: Evolving Earth System Variables
@@ -51,7 +51,18 @@
   type: R package
   version: 0.11.0
   reference:
-  GitHub: adamkocsis/icosa 
+  GitHub: adamkocsis/via 
   CRAN: yes
   logo: via.png
   link: https://adamtkocsis.com/via/
+
+- name: rampage
+  long: Calibrated Color Ramps 
+  description: "Value-calibrated color ramps can be useful to emphasize patterns in data from complex distributions. Colors can be tied to specific values, and the association can be expanded into full color ramps that also include the relationship between colors and values. Such ramps can be used in a variety of cases when heatmap-type plots are necessary, including the visualization of vector and raster spatial data, such as topographies."
+  type: R package
+  version: 0.2.1
+  reference:
+  GitHub: adamkocsis/rampage 
+  CRAN: yes
+  logo: rampage.png
+  link: https://adamtkocsis.com/rampage/
