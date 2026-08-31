@@ -18,6 +18,8 @@ $hero-darken: $dark !default;
 @import "syntax";
 @import "showcase";
 @import "../node_modules/bulma-block-list/src/block-list.scss";
+@import "base";
+
 
 .gh-sponsor {
   color: #ea4aaa;

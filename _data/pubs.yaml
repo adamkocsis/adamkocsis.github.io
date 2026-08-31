@@ -7,6 +7,12 @@
     A palaeontologist’s guide to plate reconstructions and palaeogeography. <em>Geological
     Society of London, Special Publications</em>.'
 - year: In Press
+  ref: 'Dowding, E. M., Skawina, A., Baets, K. D., Clements, T., Dentzien-Dias, P.,
+    Huntley, J. W., Kocsis, Á. T., Labandeira, C. C., Liow, L. H., Petsios, E., Rojas,
+    A., Smith, J. A., Vanadzina, K., &amp; Chattopadhyay, D. (In Press). Interpreting
+    biotic interactions in the fossil record: Evidence and evolutionary significance.
+    <em>Annual Review of Ecology, Evolution, and Systematics</em>.'
+- year: In Press
   ref: Khan, T. M., Rillo, M. C., Jonkers, L., Smith, I., Kocsis, Á. T., &amp; Kiessling,
     W. (In Press). Spatially heterogenous range dynamics since the last glacial maximumunderpin
     the modern bimodal latitudinal diversity gradient in planktonic foraminifera journal.
@@ -126,6 +132,14 @@
     Hu, D.-Y., &amp; Butler, R. J. (2022). Radial porosity profiles: A new bone histological
     method for comparative developmental analysis of diametric limb bone growth. <em>Royal
     Society Open Science</em>, <em>9</em>(5), 211893. <a href="https://doi.org/10.1098/rsos.211893">https://doi.org/10.1098/rsos.211893</a>'
+- year: '2022'
+  ref: 'Costello, M. J., Vale, M. M., Kiessling, W., Maharaj, S., Price, J., Talukdar,
+    G. H., Beckett, H., Darwall, W., Debnath, A., Devenish-Nelson, E., Golbuu, Y.,
+    Grey, K.-A., Jefferson, T., Jenkins, R., Kocsis, A., Manes, S., Midgley, G., Schoeman,
+    D., &amp; Tedesco, P. A. (2022). Cross-chapter paper 1: Biodiversity hotspots.
+    In <em>Climate change 2022: Impacts, adaptation and vulnerability: Working group
+    II contribution to the sixth assessment report of the intergovernmental panel
+    on climate change</em>. Cambridge University Press.'
 - year: '2022'
   ref: 'Flannery-Sutherland, J. T., Raja, N. B., Kocsis, Á. T., &amp; Kiessling, W.
     (2022). Fossilbrush: <span>An</span> <span>R</span> package for automated detection
