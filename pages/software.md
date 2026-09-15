@@ -18,8 +18,8 @@ hero_image: "/images/IMG_20200611_160327.jpg"
 <div class="box">
   <div class="columns is-vcentered">
 	<div class="column is-2">
-	<a  href="{{db['link']}}">
-	<img src="{{site.baseurl}}{{site.url}}/images/logos/{{pack['logo']}}" width="200" alt="{{db['name']}} logo" style="margin-left:20px;margin-right:20px">
+	<a  href="{{pack['link']}}">
+	<img class="packagelogo" src="{{site.baseurl}}{{site.url}}/images/logos/{{pack['logo']}}" width="200" alt="{{db['name']}} logo">
 	</a>
 	</div>
 	<div class="column is-1">

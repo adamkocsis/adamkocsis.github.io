@@ -53,3 +53,14 @@ border-bottom: 1px solid #eee;
 }
 .csl-entry::after{
 }
+
+
+.packagelogo{
+	margin-left:20px;
+	margin-right:20px;
+	transition: transform .2s;
+}
+.packagelogo:hover{
+	transform: scale(1.1) translateY(0px)
+
+}
